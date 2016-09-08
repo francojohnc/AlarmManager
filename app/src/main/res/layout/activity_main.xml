@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="apkmarvel.alarmmanager.MainActivity">
+
+  <Button
+      android:layout_width="wrap_content"
+      android:onClick="create"
+      android:text="create"
+      android:layout_height="wrap_content" />
+
+
+  <Button
+      android:layout_width="wrap_content"
+      android:onClick="check"
+      android:text="check"
+      android:layout_height="wrap_content" />
+  <Button
+      android:layout_width="wrap_content"
+      android:onClick="repeat"
+      android:text="repeat"
+      android:layout_height="wrap_content" />
+  <Button
+      android:layout_width="wrap_content"
+      android:onClick="cancel"
+      android:text="cancel"
+      android:layout_height="wrap_content" />
+</LinearLayout>
